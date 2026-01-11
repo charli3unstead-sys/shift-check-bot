@@ -4,7 +4,7 @@ import aiosqlite
 import discord
 from discord import app_commands
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTQ1OTg1NjY5MDMyMDExNzkxMw.GJlGYt.9jJA-h8YrmcQhaYwVmqntTQcwe-6ZOBI16qFnI)
 GUILD_ID = int(os.getenv("GUILD_ID", "0"))
 LOG_CHANNEL_ID = os.getenv("LOG_CHANNEL_ID")
 LOG_CHANNEL_ID = int(LOG_CHANNEL_ID) if LOG_CHANNEL_ID else None
